@@ -1,0 +1,32 @@
+Vector art convert to whatever
+Convert to gcode
+Manually send to Arduino
+
+12.15mm pulley diameter
+Napkin math:
+Assume 200 steps / rotation stepper motor
+
+Problem is doing of speeds differing amounts of movements on both axis?
+Need to do some calculation on the time required for the steps
+
+243pi/20 the circumference of the pulley,
+with 200 steps per rotation,
+movement is approx 0.19085mm 
+
+Doesnt really need microstepping?
+
+Might need to create a python script to just strip the thing of the G01 and replace with G0, G01 moves require a feed rate which causes the UGS to freak out
+
+X Y and Z are simply the cartesian coordinates of the poins
+Don't really understand the 
+
+Easy way:
+Main concern is that the table is not pure cartesian'ish system
+Apparently the corexy can be fixed via config.h in GRBl
+
+Hard way:
+Write code from scratch to coordinate the 2 stepper motors
+
+
+
+
