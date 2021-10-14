@@ -16,6 +16,11 @@ TestAlphaP2 = result[AlphaP2]
 print(TestAlphaP1)
 print(TestAlphaP2)
 
+
+'''
+Above is using sympy to solve
+Below is the derived eqn for Alpha1 and Alpha 2, have to do tests to see which is faster, should be the derived eqn
+'''
 MEAlphaP1 = (DeltaX + DeltaY)/Radius
 MEAlphaP2 = (DeltaY - DeltaX)/Radius
 

@@ -5,10 +5,7 @@ import ctypes
 import importlib
 
 importlib.reload(SC)
-'''
-Idea is to have 
 
-'''
 class Mainwindow:
 
     def __init__(self,master):
@@ -141,16 +138,6 @@ class Mainwindow:
 
         print("Connected to Arduino")
 
-    '''
-    Maybe do an if and pass?
-    Might be very spammy of serial if the buttons are held down?
-    
-    Something:
-
-    if(!= ):
-        pass
-    
-    '''
     def UpOnPress(self, event):
 
         if(self.UpStatus == 0):
@@ -211,8 +198,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     mainwindow = Mainwindow(root)
     root.mainloop()
-    
-    # If there is 
     
     try:
         SC.DisconnectFromArduino()              # If the Arduino has not been manually disconnected, try ser.close()

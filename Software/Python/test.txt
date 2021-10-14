@@ -1,0 +1,10 @@
+Initial testing idea:
+Do a X0 Y0
+
+Move to bottom left corner
+Bottom Right corner
+Upper Right corner
+Upper Left corner
+for a simple rectangle
+
+Have to look at more complicated Gcodes
