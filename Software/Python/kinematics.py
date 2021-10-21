@@ -1,9 +1,10 @@
 import sympy as sym
 
-DeltaX = 100
-DeltaY = 50
+DeltaX = 250
+DeltaY = 250
 Radius = 12.15/2
 
+'''
 AlphaP1,AlphaP2 = sym.symbols('x,y')
 eq1 = sym.Eq(1/2 * ((AlphaP1 * Radius) - (AlphaP2 * Radius)),DeltaX)
 eq2 = sym.Eq(1/2 * ((AlphaP1 * Radius) + (AlphaP2 * Radius)),DeltaY)
@@ -15,7 +16,7 @@ TestAlphaP2 = result[AlphaP2]
 
 print(TestAlphaP1)
 print(TestAlphaP2)
-
+'''
 
 '''
 Above is using sympy to solve

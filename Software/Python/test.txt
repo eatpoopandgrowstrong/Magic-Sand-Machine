@@ -8,3 +8,13 @@ Upper Left corner
 for a simple rectangle
 
 Have to look at more complicated Gcodes
+
+What needs to be communicated via serial?
+
+X Steps
+X Interval
+X Direction
+
+Y Steps
+Y Interval
+Y Direction
